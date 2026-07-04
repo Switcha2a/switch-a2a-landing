@@ -8,43 +8,49 @@ import {
 } from "lucide-react";
 
 export const demoData = {
-  eyebrow: "DEMO TÉCNICA",
+  eyebrow: "DEMO FUNCIONAL",
 
-  title: "Lo que podrás explorar en la versión actual",
+  title: "Lo que se puede validar en la versión actual",
 
   description:
-    "La demo reúne los principales módulos desarrollados hasta el momento para visualizar la operación y la trazabilidad del sistema.",
+    "La Demo V1 permite navegar un flujo operativo completo: dashboard, intents, timeline, replay, webhooks, DLQ, conciliación y portal del comercio.",
 
   modules: [
     {
       icon: LayoutDashboard,
       title: "Dashboard Operativo",
-      description: "Panel con el estado general de la operación.",
+      description:
+        "Métricas de operación, salud de rutas, charges, webhooks y exportación de conciliación.",
     },
     {
       icon: Workflow,
       title: "Payment Intents",
-      description: "Seguimiento de cada intento de pago.",
+      description:
+        "Listado de transacciones con ruta, decisión, estado, monto, referencia y acceso al timeline.",
     },
     {
       icon: Clock3,
       title: "Timeline",
-      description: "Eventos registrados durante el ciclo de vida de la transacción.",
+      description:
+        "Auditoría por transacción con decisión de ruta, eventos, charges, webhooks y deliveries.",
     },
     {
       icon: History,
       title: "Replay",
-      description: "Simulación de escenarios históricos de orquestación.",
+      description:
+        "Comparación de escenarios para evaluar cómo habría decidido el motor de orquestación.",
     },
     {
       icon: Building2,
       title: "Merchant Portal",
-      description: "Espacio para configuración e integración del comercio.",
+      description:
+        "Configuración del comercio, integración, webhooks y checklist de salida a producción.",
     },
     {
       icon: FileText,
       title: "README Técnico",
-      description: "Documentación con instalación, endpoints y arquitectura del proyecto.",
+      description:
+        "Instalación, endpoints, seguridad, scripts y estructura del proyecto para validación técnica.",
     },
   ],
 };

@@ -1,27 +1,27 @@
 export const problemData = {
-  title: "¿Por qué es necesaria una capa de orquestación?",
+  title: "El problema no es recibir pagos. Es operar pagos sin visibilidad.",
 
   description:
-    "Los comercios que reciben pagos digitales enfrentan retos operativos que afectan la visibilidad y el control del proceso de pago.",
+    "Cuando un comercio depende de varios rieles o proveedores, la operación se vuelve difícil de monitorear: fallos silenciosos, conciliaciones manuales, webhooks perdidos y poca trazabilidad para soporte.",
 
   items: [
     {
-      title: "Visibilidad limitada",
+      title: "Fallas difíciles de detectar",
       description:
-        "Las degradaciones o fallos de una ruta de pago no siempre son detectados a tiempo.",
+        "Una ruta puede degradarse o fallar sin que el equipo operativo lo vea a tiempo.",
     },
     {
-      title: "Operación fragmentada",
+      title: "Conciliación dispersa",
       description:
-        "La conciliación y el seguimiento de eventos suelen depender de múltiples sistemas.",
+        "La información queda repartida entre proveedores, reportes, webhooks, CSV y sistemas internos.",
     },
     {
-      title: "Baja trazabilidad",
+      title: "Soporte sin evidencia",
       description:
-        "Cuando una transacción falla, identificar su recorrido completo puede requerir investigación manual.",
+        "Cuando una transacción falla, reconstruir qué pasó puede tomar tiempo y depender de revisión manual.",
     },
   ],
 
   conclusion:
-    "Más fricción operativa, mayor carga de soporte y menor control sobre el flujo de pagos.",
+    "Más fricción operativa, más carga de soporte y menos control sobre el flujo de pagos.",
 };

@@ -10,41 +10,47 @@ import {
 export const solutionData = {
   eyebrow: "LA SOLUCIÓN",
 
-  title: "Una capa para centralizar decisiones y trazabilidad",
+  title: "Una capa para decidir, registrar y auditar cada pago",
 
   description:
-    "Switch A2A actúa entre el comercio y los rieles de pago para coordinar el flujo de las transacciones, registrar cada decisión y ofrecer una visión unificada de la operación.",
+    "Switch A2A se ubica entre el comercio y los rieles de pago. Desde ahí permite centralizar la operación, comparar rutas, registrar decisiones, monitorear eventos y mantener una trazabilidad completa por cada Payment Intent.",
 
   features: [
     {
       icon: ClipboardList,
       title: "Payment Intents",
-      description: "Gestión centralizada del ciclo de vida de cada transacción.",
+      description:
+        "Cada pago tiene un ciclo de vida visible: estado, ruta, referencia, eventos y acciones operativas.",
     },
     {
       icon: Route,
       title: "Orquestación",
-      description: "Selección de la mejor ruta entre Bre-B y PSE según reglas definidas.",
+      description:
+        "El sistema permite decidir entre Bre-B y PSE según reglas, salud de ruta, latencia, disponibilidad y contexto del pago.",
     },
     {
       icon: Activity,
       title: "Route Health",
-      description: "Monitoreo del estado de las rutas para facilitar el seguimiento operativo.",
+      description:
+        "Monitoreo de rutas para detectar degradaciones, comparar desempeño y actuar antes de que el problema escale.",
     },
     {
       icon: ArrowLeftRight,
       title: "Webhooks",
-      description: "Gestión de eventos, entregas y reintentos desde un único lugar.",
+      description:
+        "Eventos, entregas, fallos, DLQ, reintentos y re-drive desde un único panel operativo.",
     },
     {
       icon: TimerReset,
       title: "Replay",
-      description: "Simulación de escenarios históricos para analizar decisiones de enrutamiento.",
+      description:
+        "Simulación de escenarios históricos para comparar decisiones y validar estrategias de enrutamiento.",
     },
     {
       icon: ShieldCheck,
       title: "Trazabilidad",
-      description: "Registro completo de eventos y decisiones por cada Payment Intent.",
+      description:
+        "Auditoría completa del recorrido de cada transacción: intent, decisión de ruta, charge, webhook y delivery.",
     },
   ],
 };
