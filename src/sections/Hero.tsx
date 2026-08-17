@@ -1,5 +1,4 @@
 import Container from "../components/common/Container";
-import Button from "../components/common/Button";
 import ImageCarousel from "../components/ui/ImageCarousel";
 
 import { heroData, showcaseImages } from "../data/landing";
@@ -24,8 +23,21 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
-            <Button>{heroData.primaryButton}</Button>
-            <Button variant="secondary">{heroData.secondaryButton}</Button>
+            <a
+              href="#demo-video"
+              className="inline-flex items-center justify-center rounded-xl bg-emerald-400 px-8 py-4 text-base font-bold text-black shadow-[0_18px_55px_rgba(16,185,129,0.22)] transition hover:-translate-y-0.5 hover:bg-emerald-300"
+            >
+              {heroData.primaryButton}
+            </a>
+
+            <button
+              type="button"
+              aria-disabled="true"
+              title="Próximamente"
+              className="inline-flex cursor-default items-center justify-center rounded-xl border border-white/10 bg-white/[0.055] px-8 py-4 text-base font-bold text-white/90"
+            >
+              {heroData.secondaryButton}
+            </button>
           </div>
 
           <ImageCarousel images={showcaseImages} />
