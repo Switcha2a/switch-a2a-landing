@@ -1,12 +1,12 @@
 export const videoData = {
-  eyebrow: "VIDEO DEMO",
+  eyebrow: "DEMO EN VIDEO",
 
-  title: "Conoce Switch A2A en acción",
+  title: "Mira Switch A2A funcionando en menos de 4 minutos",
 
   description:
-    "Una demostración técnica del panel operativo y de las principales capacidades implementadas en esta versión.",
+    "Recorrido por el flujo completo de la Demo V1: dashboard operativo, payment intents, timeline, replay, webhooks, DLQ y portal del comercio.",
 
-  thumbnail: "/images/video/thumbnail.jpg",
+  thumbnail: "/images/showcase/dashboard-top.png",
 
   video: "/videos/demo.mp4",
 };
