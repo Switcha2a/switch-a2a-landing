@@ -1,4 +1,5 @@
 import Container from "../components/common/Container";
+import { contactData } from "../data/contact";
 
 export default function FinalCTA() {
   return (
@@ -21,8 +22,10 @@ export default function FinalCTA() {
 
           <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
             <a
-              href="mailto:contacto@d3vs.tech?subject=Validación piloto Switch A2A"
-              className="inline-flex items-center justify-center rounded-xl bg-emerald-400 px-8 py-4 text-base font-bold text-black transition hover:bg-emerald-300"
+              href={contactData.whatsappUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-xl bg-emerald-400 px-8 py-4 text-base font-bold text-black shadow-[0_18px_55px_rgba(16,185,129,0.22)] transition hover:-translate-y-0.5 hover:bg-emerald-300"
             >
               Agendar validación piloto
             </a>

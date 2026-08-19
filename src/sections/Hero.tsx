@@ -2,6 +2,7 @@ import Container from "../components/common/Container";
 import ImageCarousel from "../components/ui/ImageCarousel";
 
 import { heroData, showcaseImages } from "../data/landing";
+import { contactData } from "../data/contact";
 
 export default function Hero() {
   return (
@@ -30,14 +31,14 @@ export default function Hero() {
               {heroData.primaryButton}
             </a>
 
-            <button
-              type="button"
-              aria-disabled="true"
-              title="Próximamente"
-              className="inline-flex cursor-default items-center justify-center rounded-xl border border-white/10 bg-white/[0.055] px-8 py-4 text-base font-bold text-white/90"
+            <a
+              href={contactData.whatsappUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/[0.055] px-8 py-4 text-base font-bold text-white/90 transition hover:-translate-y-0.5 hover:bg-white/[0.08]"
             >
               {heroData.secondaryButton}
-            </button>
+            </a>
           </div>
 
           <ImageCarousel images={showcaseImages} />
