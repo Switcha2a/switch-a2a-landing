@@ -77,7 +77,7 @@ export default function VideoDemo() {
 
               <div className="flex items-center justify-between border-t border-white/10 px-5 py-4 text-sm text-zinc-400">
                 <span>Producto real funcionando · Demo técnica Switch A2A</span>
-                <span className="font-mono text-emerald-300">03:30 aprox.</span>
+                <span className="font-mono text-emerald-300">03:39</span>
               </div>
             </button>
           </div>
