@@ -6,7 +6,7 @@ export const heroData = {
   description:
     "Menos pagos perdidos. Más trazabilidad. Mejor operación. Switch A2A centraliza rutas de pago, eventos, webhooks, conciliación y auditoría para que comercios y fintechs puedan operar pagos cuenta a cuenta con mayor control.",
 
-  primaryButton: "Ver demo funcional",
+  primaryButton: "Ver video demo (3:39)",
 
   secondaryButton: "Agendar validación piloto",
 };
